@@ -1,8 +1,8 @@
 
-panda-pick-place - v2 2024-04-11 3:02pm
+panda_eco_centre - v1 2024-06-07 9:06am
 ==============================
 
-This dataset was exported via roboflow.com on April 11, 2024 at 12:57 PM GMT
+This dataset was exported via roboflow.com on June 7, 2024 at 7:53 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,16 +17,15 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 31 images.
-Box-bottle are annotated in YOLOv8 format.
+The dataset includes 93 images.
+Plastic-aluminum are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 640x640 (Stretch)
 
 The following augmentation was applied to create 3 versions of each source image:
-* Random exposure adjustment of between -43 and +43 percent
-* Random Gaussian blur of between 0 and 2.5 pixels
-* Salt and pepper noise was applied to 3.79 percent of pixels
+* Random Gaussian blur of between 0 and 1.6 pixels
+* Salt and pepper noise was applied to 0.1 percent of pixels
 
 

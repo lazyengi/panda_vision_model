@@ -3,11 +3,11 @@ val: ../valid/images
 test: ../test/images
 
 nc: 2
-names: ['bottle', 'box']
+names: ['aluminum', 'plastic']
 
 roboflow:
   workspace: uni-lcno9
-  project: panda-pick-place
-  version: 2
+  project: panda_eco_centre
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/uni-lcno9/panda-pick-place/dataset/2
+  url: https://universe.roboflow.com/uni-lcno9/panda_eco_centre/dataset/1
